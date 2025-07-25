@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450">
+  <rect width="800" height="450" fill="#4A148C" rx="15" ry="15"/>
+  <rect x="50" y="50" width="700" height="350" fill="#6A1B9A" rx="10" ry="10"/>
+  
+  <!-- Header -->
+  <rect x="80" y="80" width="640" height="60" fill="#7B1FA2" rx="5" ry="5"/>
+  <text x="120" y="120" font-family="Arial" font-size="24" fill="white" font-weight="bold">Mental Health AI Dashboard</text>
+  
+  <!-- Stats Cards -->
+  <rect x="80" y="160" width="200" height="100" fill="#8E24AA" rx="5" ry="5"/>
+  <text x="100" y="190" font-family="Arial" font-size="16" fill="white">Prediction Accuracy</text>
+  <text x="100" y="230" font-family="Arial" font-size="32" fill="white" font-weight="bold">92%</text>
+  
+  <rect x="300" y="160" width="200" height="100" fill="#9C27B0" rx="5" ry="5"/>
+  <text x="320" y="190" font-family="Arial" font-size="16" fill="white">Active Users</text>
+  <text x="320" y="230" font-family="Arial" font-size="32" fill="white" font-weight="bold">1,245</text>
+  
+  <rect x="520" y="160" width="200" height="100" fill="#AB47BC" rx="5" ry="5"/>
+  <text x="540" y="190" font-family="Arial" font-size="16" fill="white">Sessions Today</text>
+  <text x="540" y="230" font-family="Arial" font-size="32" fill="white" font-weight="bold">328</text>
+  
+  <!-- Graph -->
+  <rect x="80" y="280" width="420" height="120" fill="#8E24AA" rx="5" ry="5"/>
+  
+  <!-- Graph Lines -->
+  <polyline points="100,360 140,330 180,345 220,310 260,320 300,290 340,300 380,270 420,280 460,250" 
+            fill="none" stroke="#E1BEE7" stroke-width="3"/>
+  
+  <!-- Graph Points -->
+  <circle cx="100" cy="360" r="4" fill="#E1BEE7"/>
+  <circle cx="140" cy="330" r="4" fill="#E1BEE7"/>
+  <circle cx="180" cy="345" r="4" fill="#E1BEE7"/>
+  <circle cx="220" cy="310" r="4" fill="#E1BEE7"/>
+  <circle cx="260" cy="320" r="4" fill="#E1BEE7"/>
+  <circle cx="300" cy="290" r="4" fill="#E1BEE7"/>
+  <circle cx="340" cy="300" r="4" fill="#E1BEE7"/>
+  <circle cx="380" cy="270" r="4" fill="#E1BEE7"/>
+  <circle cx="420" cy="280" r="4" fill="#E1BEE7"/>
+  <circle cx="460" cy="250" r="4" fill="#E1BEE7"/>
+  
+  <!-- AI Analysis Panel -->
+  <rect x="520" y="280" width="200" height="120" fill="#9C27B0" rx="5" ry="5"/>
+  <text x="540" y="310" font-family="Arial" font-size="16" fill="white">AI Analysis</text>
+  
+  <!-- Brain Icon -->
+  <circle cx="560" cy="340" r="20" fill="#CE93D8" opacity="0.8"/>
+  <path d="M550,340 C550,330 570,330 570,340 C570,350 550,350 550,340 Z" fill="#4A148C"/>
+  <path d="M545,335 C545,325 575,325 575,335" fill="none" stroke="#4A148C" stroke-width="2"/>
+  <path d="M545,345 C545,355 575,355 575,345" fill="none" stroke="#4A148C" stroke-width="2"/>
+  
+  <!-- AI Analysis Text -->
+  <text x="590" y="335" font-family="Arial" font-size="12" fill="white">Sentiment: Positive</text>
+  <text x="590" y="355" font-family="Arial" font-size="12" fill="white">Trend: Improving</text>
+  
+  <!-- HIPAA Compliant Badge -->
+  <rect x="650" y="80" width="70" height="25" fill="#E1BEE7" rx="12" ry="12"/>
+  <text x="685" y="97" font-family="Arial" font-size="12" fill="#4A148C" text-anchor="middle" font-weight="bold">HIPAA</text>
+</svg>

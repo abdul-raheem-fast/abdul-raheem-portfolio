@@ -1,0 +1,31 @@
+{
+  "name": "abdul-raheem-portfolio",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "npx tailwindcss -i ./app/globals.css -o ./app/output.css --watch & next dev",
+    "build": "npx tailwindcss -i ./app/globals.css -o ./app/output.css && next build",
+    "start": "next start",
+    "lint": "next lint",
+    "build:css": "npx tailwindcss -i ./app/globals.css -o ./app/output.css --watch"
+  },
+  "dependencies": {
+    "framer-motion": "^10.16.4",
+    "lucide-react": "^0.292.0",
+    "next": "^14.0.3",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-intersection-observer": "^9.5.3"
+  },
+  "devDependencies": {
+    "@types/node": "^20.9.0",
+    "@types/react": "^18.2.37",
+    "autoprefixer": "^10.4.16",
+    "css-loader": "^7.1.2",
+    "eslint": "^8.53.0",
+    "postcss": "^8.4.31",
+    "style-loader": "^4.0.0",
+    "tailwindcss": "^3.3.5",
+    "typescript": "^5.2.2"
+  }
+}

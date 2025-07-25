@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 600" width="600" height="600">
+  <!-- SQL Server Logo -->
+  <g transform="translate(100, 50)">
+    <!-- Database shape -->
+    <path d="M200,0 C310,0 400,40 400,90 L400,410 C400,460 310,500 200,500 C90,500 0,460 0,410 L0,90 C0,40 90,0 200,0 Z" fill="#CCCCCC" opacity="0.8"/>
+    
+    <!-- Top red section -->
+    <path d="M200,0 C310,0 400,40 400,90 L400,110 C400,60 310,20 200,20 C90,20 0,60 0,110 L0,90 C0,40 90,0 200,0 Z" fill="#E73C2D"/>
+    
+    <!-- Middle section -->
+    <path d="M0,110 C0,160 90,200 200,200 C310,200 400,160 400,110 L400,130 C400,180 310,220 200,220 C90,220 0,180 0,130 L0,110 Z" fill="#E73C2D" opacity="0.8"/>
+    
+    <!-- Network lines -->
+    <g fill="none" stroke="#E73C2D" stroke-width="2">
+      <!-- Horizontal lines -->
+      <path d="M40,60 L360,60" />
+      <path d="M60,90 L340,90" />
+      <path d="M80,120 L320,120" />
+      <path d="M100,150 L300,150" />
+      
+      <!-- Vertical lines -->
+      <path d="M80,30 L80,180" />
+      <path d="M160,30 L160,180" />
+      <path d="M240,30 L240,180" />
+      <path d="M320,30 L320,180" />
+      
+      <!-- Diagonal lines -->
+      <path d="M40,30 L120,180" />
+      <path d="M120,30 L200,180" />
+      <path d="M200,30 L280,180" />
+      <path d="M280,30 L360,180" />
+    </g>
+  </g>
+  
+  <!-- Text -->
+  <g transform="translate(100, 500)">
+    <text font-family="Arial, sans-serif" font-weight="bold" font-size="48" fill="#333333">
+      <tspan x="50" y="50">SQL Server</tspan>
+    </text>
+  </g>
+</svg>

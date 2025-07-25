@@ -1,0 +1,70 @@
+/* Image Display Guidelines */
+
+/* 1. Center text and images */
+.center-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+/* 2. Text section on left and expertise on right for desktop */
+@media (min-width: 768px) {
+  .desktop-layout {
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .text-section {
+    order: 1;
+    text-align: left;
+  }
+  
+  .expertise-section {
+    order: 2;
+  }
+}
+
+/* Mobile layout - stack vertically */
+@media (max-width: 767px) {
+  .desktop-layout {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .text-section,
+  .expertise-section {
+    width: 100%;
+    text-align: center;
+  }
+}
+
+/* 3. General styling for images */
+.image-container {
+  position: relative;
+  overflow: hidden;
+  border-radius: 0.5rem;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+}
+
+.image-container img {
+  width: 100%;
+  height: auto;
+  transition: transform 0.3s ease;
+}
+
+.image-container:hover img {
+  transform: scale(1.05);
+}
+
+/* 4. Profile image styling */
+.profile-image {
+  border-radius: 50%;
+  border: 4px solid rgba(139, 92, 246, 0.5);
+}
+
+/* 5. Project image styling */
+.project-image {
+  aspect-ratio: 16/9;
+  object-fit: cover;
+}

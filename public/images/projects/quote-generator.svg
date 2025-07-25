@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450">
+  <rect width="800" height="450" fill="#2E1065" rx="15" ry="15"/>
+  <rect x="50" y="50" width="700" height="350" fill="#4C1D95" rx="10" ry="10"/>
+  
+  <!-- App Interface -->
+  <rect x="150" y="100" width="500" height="250" rx="10" ry="10" fill="#5B21B6" stroke="#C4B5FD" stroke-width="2"/>
+  
+  <!-- App Header -->
+  <rect x="150" y="100" width="500" height="50" rx="10" ry="10" fill="#6D28D9" stroke="#C4B5FD" stroke-width="2"/>
+  <text x="400" y="132" font-family="Arial" font-size="20" fill="white" text-anchor="middle" font-weight="bold">Daily Inspiration</text>
+  
+  <!-- Quote Area -->
+  <rect x="170" y="170" width="460" height="120" rx="5" ry="5" fill="#7C3AED" opacity="0.7"/>
+  
+  <!-- Quote Marks -->
+  <text x="190" y="200" font-family="Arial" font-size="60" fill="#C4B5FD" opacity="0.5">"</text>
+  <text x="610" y="270" font-family="Arial" font-size="60" fill="#C4B5FD" opacity="0.5">"</text>
+  
+  <!-- Quote Text -->
+  <text x="400" y="210" font-family="Arial" font-size="18" fill="white" text-anchor="middle">Success is not final, failure is not fatal:</text>
+  <text x="400" y="240" font-family="Arial" font-size="18" fill="white" text-anchor="middle">it is the courage to continue that counts.</text>
+  
+  <!-- Author -->
+  <text x="400" y="280" font-family="Arial" font-size="16" fill="#C4B5FD" text-anchor="middle">- Winston Churchill</text>
+  
+  <!-- Buttons -->
+  <rect x="200" y="310" width="140" height="40" rx="20" ry="20" fill="#8B5CF6" stroke="#C4B5FD" stroke-width="1"/>
+  <text x="270" y="335" font-family="Arial" font-size="14" fill="white" text-anchor="middle">New Quote</text>
+  
+  <rect x="360" y="310" width="140" height="40" rx="20" ry="20" fill="#8B5CF6" stroke="#C4B5FD" stroke-width="1"/>
+  <text x="430" y="335" font-family="Arial" font-size="14" fill="white" text-anchor="middle">Save Quote</text>
+  
+  <rect x="520" y="310" width="100" height="40" rx="20" ry="20" fill="#8B5CF6" stroke="#C4B5FD" stroke-width="1"/>
+  <text x="570" y="335" font-family="Arial" font-size="14" fill="white" text-anchor="middle">Share</text>
+  
+  <!-- Category Selector -->
+  <rect x="170" y="120" width="120" height="30" rx="15" ry="15" fill="#4C1D95" stroke="#C4B5FD" stroke-width="1"/>
+  <text x="230" y="140" font-family="Arial" font-size="12" fill="white" text-anchor="middle">Motivation</text>
+  
+  <!-- Mobile App Frame Elements -->
+  <circle cx="400" cy="370" r="10" fill="#C4B5FD" opacity="0.5"/>
+  <rect x="390" y="80" width="20" height="5" rx="2" ry="2" fill="#C4B5FD" opacity="0.5"/>
+</svg>
